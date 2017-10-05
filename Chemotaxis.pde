@@ -1,6 +1,6 @@
 //declare bacteria variables here
 ArrayList<Bacteria> colony;
-int bubble = 8;
+int bubble = 20;
 void setup()
 {
   //initialize bacteria variables here
