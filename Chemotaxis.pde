@@ -15,7 +15,7 @@ void setup()
 void draw()
 {
   //move and show the bacteria
-  background(255);
+  background(200);
 
   for (int i= 0; i < colony.size(); i++) 
   {
@@ -35,7 +35,7 @@ class Bacteria
   {
     theX = 250;
     theY = 250;
-    color(255);
+    color(200);
 
   }
   void walk() 
@@ -54,7 +54,7 @@ class Bacteria
       } 
   }
     void show() {
-      fill(255);
+      fill(200);
       ellipse(theX % 500, theY % 500, 10, 10);
     }
   }
